@@ -1,7 +1,7 @@
 # Flask Portfolio Website
 A simple and lightweight personal portfolio website built using Flask and Bootstrap
 
-<img src="/static/preview.png">
+<img src="app/static/preview.png">
 
 ## Requirements
 ```bash
