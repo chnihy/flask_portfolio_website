@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	{% block project_title %}
+		<h1>Notereader</h1>
+	{% endblock project_title %}	
+	
+	{% block project_about %}
+	<p>Notereader is a sight reading exercise generator built with Python and Kivy</p>
+	<p>
+		<a href="https://github.com/chnihy/notereader">See on GitHub</a>
+	</p>
+	
+	<p>
+		<img src="../static/notereader_preview.png" alt="notereader_preview" width="800" srcset="">
+		<img src="../static/notereader_example.png" alt="notereader_example" width=800 srcset="">
+
+	</p>
+	
+	<p>
+		Built using Python and Kivy UI as well as <a href="http://scamp.marcevanstein.com/">Scamp</a> for 
+		engraving.  Notereader generates XML files which can be read by a music notation software like Sibelius or <a href="https://musescore.com/">Musescore.</a> 
+		Or you can open directly in your OS using LilyPond/Abjad engraving.
+	</p>
+
+	<p>
+		There are a lot of controls over the output, including:
+		<ul>
+			<li>Time Signature/Tempo</li>
+			<li>Rhythmic Subdivision</li>
+			<li>Scale/Clef/Key</li>
+			<li>Sample size - aka the number of notes from the scale</li>
+			<li>The number of exercises</li>
+		</ul>
+	</p>
+	
+	<p>This app has great applications for music lessons - teachers or students can use this daily to increase their 
+		sight reading skills.
+	</p>
+	
+	<p>
+		Check out <a href="https://www.youtube.com/">this</a> demo
+	</p>
+
+
+	{% endblock project_about %}
+
+	
+	
+{% endblock content %}

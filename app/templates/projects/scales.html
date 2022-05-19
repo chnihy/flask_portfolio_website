@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	{% block project_title %}
+		<h1>Scales</h1>
+	{% endblock project_title %}	
+	
+	<p>Scales.py (also Scales.js) is a simple program for building scales</p>
+	<span class="code">
+			<p>
+			>>> python3
+			<br>
+			>>> import scales
+			<br>
+			>>> cmajor = scales.Major('c')
+			<br>
+			>>> cmajor.scale
+			<br>
+			['C', 'D', 'E', 'F', 'G', 'A', 'B']
+		</p>
+	</span>
+	<p>
+		Currently supported scales:
+	</p>
+	<ul>
+		<li>Chromatic</li>
+		<li>Major</li>
+		<li>Minor</li>
+		<li>MelodicMinor</li>
+		<li>MajorPentatonic</li>
+		<li>MinorPentatonic </li>
+	</ul>
+	
+	<p>
+		Check out the <a href="http://github.com/chnihy/scales">GitHub</a> for a more detailed explanation
+	</p>
+		
+	
+	
+{% endblock content %}

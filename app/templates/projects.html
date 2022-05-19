@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+{% block title %}
+	Chresten Hyde | Projects
+{% endblock title %}
+
+{% block content %}
+<h2>	
+	My Projects
+</h2>
+<table>
+	<tr>
+		<td>
+			<a href={{ url_for('mpm') }}>Melodic Pattern Maker</a>
+		</td>
+		<td>A unique tool for music teaching and creation</td>
+	</tr>
+	<tr>
+		<td>
+			<a href={{ url_for('scales') }}>Scales.py module</a>
+		</td>
+		<td>A simple (but useful!) script for musical scale generation</td>
+	</tr>
+</table>
+
+{% endblock content %}

@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	{% block project_title %}
+		<h1>MelodicPatternMaker</h1>
+	{% endblock project_title %}	
+	
+	{% block project_about %}
+	<p>Melodic Pattern Maker is an inventive tool for music education and creation</p>
+	<p>
+		<a href="https://github.com/chnihy/melodicpatternmaker">See on GitHub</a>
+	</p>
+	<p>
+		<img src="../static/mpm_preview.png" alt="mpm_preview" width=800 srcset="">
+		<img src="../static/mpm_example.png" alt="mpm_example" width=800 srcset="">
+	</p>
+	
+	<p>
+		It's can be a little tricky to explain the Melodic Pattern Maker, any more than the title already does 
+	</p>
+	
+	<p>This app creates melodic pattern exercises.  But what is a melodic pattern?
+		It's basically like a notation creator for an arppegiator.  
+	</p>
+	
+	<p>
+		Or you could check out <a href="https://www.youtube.com/watch?v=Elo2O-mKUpg">this</a> explanation
+	</p>
+
+
+	{% endblock project_about %}
+
+	
+	
+{% endblock content %}
